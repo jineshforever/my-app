@@ -1,0 +1,10 @@
+.exampleFormControlTextarea1::placeholder{
+    color:black;
+    opacity: 1;
+}
+
+.exampleFormControlTextarea2::placeholder{
+    color:white;
+    opacity: 1;
+}
+

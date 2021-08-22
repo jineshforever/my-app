@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./App.css";
-import About from "./Components/About";
+// import About from "./Components/About";
 import Alert from "./Components/Alert";
 import Navbar from "./Components/Navbar";
 import TextForm from "./Components/TextForm";
@@ -85,20 +85,20 @@ function App() {
   }
   return (
     <>
-    <Router>
+    {/* <Router> */}
       <Navbar title="TextUtils" about="About us" mode={mode} toggleModeDarkBlue={toggleModeDarkBlue} toggleModeBlue={toggleModeBlue} toggleModeYellow={toggleModeYellow}/>
       <Alert alert={alert}/>
-      <Switch>
+      {/* <Switch>
           <Route exact path="/about">
             <About />
           </Route>
-          <Route exact path="/">
+          <Route exact path="/"> */}
           <div className="container">
       <TextForm heading="Enter the text to analyse" textFormColor={textFormColor} textColor={textColor} showAlert={showAlert} mode={mode} buttonColor={buttonColor}/>      
       </div>
-          </Route>
+          {/* </Route>
         </Switch>
-        </Router>
+        </Router> */}
      
     </>
   );
